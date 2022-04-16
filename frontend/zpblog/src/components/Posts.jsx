@@ -72,7 +72,7 @@ const Posts = () => {
             <Suspense fallback={<h1>Loading....</h1>}>
                 <ShowPosts posts={selectedPosts} />
             </Suspense>
-            <Stack spacing={2} style={{ marginBottom: 80 }}>
+            <Stack spacing={2} style={{ marginBottom: 10 }}>
                 <Pagination onChange={changePageHandler} color="primary" count={totalCount / pageSize} page={currentPage} className={classes.pagination} />
             </Stack>
         </div>

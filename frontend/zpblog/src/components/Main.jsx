@@ -6,6 +6,7 @@ import LeftBar from './LeftBar';
 import Feed from './Feed';
 import AddPostButton from './AddPostButton';
 import BottomBar from './BottomBar';
+import Footer from './Footer';
 
 const Main = () => {
 
@@ -45,6 +46,7 @@ const Main = () => {
                 </Grid>
             </Grid>
             <AddPostButton />
+            <Footer />
             <BottomBar />
         </>
     );
